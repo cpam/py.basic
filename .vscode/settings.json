@@ -1,3 +1,8 @@
 {
-    "python.analysis.autoImportCompletions": true
+    "python.analysis.autoImportCompletions": true,
+    "terminal.integrated.automationProfile.windows": {
+        
+    },
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.env.windows": {}
 }
