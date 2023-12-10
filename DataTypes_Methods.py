@@ -20,8 +20,7 @@ values_list = list(dictionary.values())  # values
 
 # Common File Methods examples (Note: File operations require an actual file to work on)
 with open('example.txt', 'w+') as file:
-    file.write('Example content
-')
+    file.write('Example content')
     file.seek(0)
     read_content = file.read()  # read
     file.seek(0)
@@ -29,9 +28,7 @@ with open('example.txt', 'w+') as file:
     file.seek(0)
     readlines_content = file.readlines()  # readlines
     file.seek(0)
-    file.writelines(['Line 1
-', 'Line 2
-'])  # writelines
+    file.writelines(['Line 1', 'Line 2'])  # writelines
     file.close()  # close
 
 # Common List Methods examples
